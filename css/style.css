@@ -51,6 +51,7 @@ body {
 .container {
 	max-width: 1366px;
 	margin: 0 auto;
+	padding: 0 80px;
 }
 
 .btn {
@@ -496,16 +497,22 @@ body {
 
 .advantages__list {
 	display: flex;
+	flex-wrap: wrap;
+	gap: 28px;
+	margin: 0 auto;
 }
 
 .advantages__item {
+	width: 360px;
+	min-height: 301px;
 	padding: 17px 20px;
 	background: #1F1C1D;
-	/*max-width: 360px;*/
 }
 
 .advantages__link {
 	display: block;
+	padding-top: 47px;
+	padding-bottom: 24px;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -526,10 +533,22 @@ body {
     transition: fill 0.3s ease-out, stroke 0.3s ease-out;
 }
 
+.advantages__link .consultation {
+	margin-bottom: 45px;
+}
+
+.advantages__link .nutrition {
+	margin-bottom: 35px;
+}
+
 .advantages__link span {
 	display: block;
-	max-width: 230px;
-	min-width: 180px;
+	margin: 0 auto;
+	width: 255px;
+}
+
+.advantages__link .nutrition--lead {
+	width: 213px;
 }
 
 .advantages__link:hover,
