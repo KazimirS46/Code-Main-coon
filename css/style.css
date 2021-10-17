@@ -374,7 +374,7 @@ body {
 .item__top--left {
 	width: 240px;
 	top: 206px;
-	left: -550px;	
+	left: -570px;	
 	text-align: right;
 }
 
@@ -392,7 +392,7 @@ body {
 .item__top--right {
 	width: 180px;
 	top: 315px;
-	right: -507px;
+	right: -485px;
 	text-align: left;
 }
 
@@ -410,7 +410,7 @@ body {
 .item__bottom--left {
 	width: 190px;
 	bottom: -530px;
-	left: -520px;
+	left: -540px;
 	text-align: right;
 }
 
@@ -428,7 +428,7 @@ body {
 .item__bottom--right {
 	max-width: 168px;
     bottom: -582px;
-    right: -448px;
+    right: -428px;
 	text-align: left;
 }
 
@@ -445,7 +445,7 @@ body {
 
 .features__image {
 	position: relative;
-	margin: 7px 0 126px 43.5px;
+	margin: 7px 0 126px 0;
 	z-index: 1;
 }
 
