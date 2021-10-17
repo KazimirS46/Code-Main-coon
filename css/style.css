@@ -514,7 +514,7 @@ body {
 .advantages__link {
 	display: block;
 	padding-top: 47px;
-	padding-bottom: 24px;
+	padding-bottom: 20px;
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -528,7 +528,7 @@ body {
 
 .advantages__link svg {
 	margin: 0 auto;
-	margin-bottom: 36px;
+	margin-bottom: 40px;
     fill: #a07b50;
     stroke-width: 2;
     stroke: #1f1c1d;
@@ -536,11 +536,11 @@ body {
 }
 
 .advantages__link .consultation {
-	margin-bottom: 45px;
+	margin-bottom: 50px;
 }
 
 .advantages__link .nutrition {
-	margin-bottom: 35px;
+	margin-bottom: 40px;
 }
 
 .advantages__link span {
