@@ -1,4 +1,4 @@
-/* yeseva-one-regular - cyrillic */
+ yeseva-one-regular - cyrillic */
 @font-face {
   font-family: 'Yeseva One';
   font-style: normal;
@@ -88,7 +88,7 @@ body {
 	margin: 0;
 	font-family: Yeseva One;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	color: #FFFFFF;
@@ -564,5 +564,106 @@ body {
 	stroke: #a07b50;
 }
 
-
 /*advantages style end*/
+
+/*care style Start*/
+
+.care {
+	background: #151313 url(../img/png/Care-background-Cat-1366x645@1x.png) 50% top no-repeat;
+	background-size: cover;
+}
+
+.care__title {
+	margin-bottom: 48px;
+}
+
+.care__wrapper {
+	padding-top: 84px;
+	padding-bottom: 98px;
+}
+
+.care__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 96%;
+}
+
+.care__item {
+	margin-bottom: 3.7%;
+	flex-basis: 48.27%;
+}
+
+.care__item--wool {
+	order: 0;
+}
+.care__item--ears {
+	order: 2;
+}
+.care__item--claw {
+	order: 1;
+}
+.care__item--food {
+	order: 3;
+}
+
+.care__link {
+	position: relative;
+	display: block;
+	padding-top: 34px;
+	padding-right: 19%;
+	padding-bottom: 21px;
+	padding: 34px 19% 21px 59px;
+	min-height: 165px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid #A07B50;
+}
+
+.care__link::before {
+	position: absolute;
+	content: "";
+	width: 10.72%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: url(../img/svg/Care-arrow-right-15.96x10.56.svg) center no-repeat;
+	background-color: #A07B50;
+	border-left: 1px solid #A07B50;
+}
+
+
+.care__link:hover,
+.care__link:focus {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.care__link:hover::before,
+.care__link:focus::before {
+	background: rgba(0, 0, 0, 0.3) url(../img/svg/Care-arrow-right-15.96x10.56.svg) center no-repeat;
+}
+
+.care__link:active {
+	opacity: .3;
+}
+
+.care__link-title {
+	margin: 0;
+	margin-bottom: 14px;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	color: #A07B50;
+}
+
+.care__link-content {
+	margin: 0;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+	color: #FFFFFF;
+}
+
+/*care style End*/
