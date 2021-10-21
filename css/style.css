@@ -826,6 +826,28 @@ body {
 	background-image: url(../img/svg/team-slider-btn-next.svg);
 }
 
-
-
 /*team style End*/
+
+
+
+
+/*faq start*/
+
+.faq {
+	background-color: #1F1C1D;
+}
+
+.faq__wrapper {
+	padding-top: 73px;
+	padding-bottom: 58px;
+}
+
+.faq__title {
+	margin-bottom: 23px;
+}
+
+.faq__description {
+	margin-bottom: 54px;
+}
+
+/*faq end*/
