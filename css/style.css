@@ -39,6 +39,13 @@ body {
     background-color: #151313;
 }
 
+.main__comment {
+	text-align: center;
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: bold;
+}
+
 .wrapper {
 	outline: 4px solid red;
 }
