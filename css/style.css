@@ -850,4 +850,8 @@ body {
 	margin-bottom: 54px;
 }
 
+.faq__list {
+	max-width: 909px;
+}
+
 /*faq end*/
