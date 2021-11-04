@@ -749,7 +749,7 @@ body {
 	flex-direction: column-reverse;
 }
 
-.comment-text {
+.team-text {
 	margin: 0;
 	margin-bottom: 43px;
 	font-weight: 300;
@@ -968,3 +968,19 @@ body {
 	color: #DDD0C3;
 }
 /*faq end*/
+
+/*reviews Start*/
+
+.reviews {	
+	background-color: #1F1C1D;
+}
+
+.reviews__wrapper {
+	padding-top: 41px;
+}
+
+.reviews__title {
+	margin-bottom: 58px;
+}
+
+/*reviews End*/
