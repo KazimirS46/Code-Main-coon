@@ -14,6 +14,9 @@
 <!-- SVG start -->
 	<div class="SVG">
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<symbol id="logo-icon" viewBox="0 0 49 23">
+				<path d="M41.8399 22H6.99989C6.66144 22 6.3606 21.7851 6.25095 21.4657L1.0428 6.29874C0.901441 5.88527 1.12164 5.43605 1.5353 5.294C1.66216 5.25103 1.79446 5.24017 1.91725 5.26189C2.20359 5.27862 2.47046 5.45143 2.59415 5.73191C3.23797 7.19174 5.52829 11.9047 8.2001 11.9047C8.23318 11.9047 8.2667 11.9038 8.30068 11.9019C9.91229 11.8305 12.4328 9.97344 15.2885 1.53743C15.3977 1.21624 15.699 1 16.0384 1C16.3782 1 16.6795 1.21624 16.7887 1.53743C17.7637 4.41412 21.0318 11.8581 24.4253 11.8581C24.4344 11.8581 24.443 11.8576 24.4525 11.8576C26.0614 11.8382 28.5352 10.0354 31.1844 1.55507C31.2881 1.22438 31.594 1 31.9406 1H31.9483C32.298 1.00362 32.6039 1.23524 32.7008 1.57045C33.5105 4.35441 36.3821 11.6463 39.9043 11.9508C41.9622 12.12 44.2439 9.79475 46.4967 5.20172C46.6797 4.82669 47.1246 4.65796 47.5111 4.81855C47.8967 4.97824 48.0924 5.40981 47.9574 5.8052L42.5893 21.4657C42.4792 21.7856 42.1783 22 41.8399 22ZM7.56534 20.4189H41.2736L44.3758 11.3686C42.8765 12.9528 41.3542 13.6594 39.7666 13.5264C35.8656 13.1876 33.1888 7.57491 31.9442 4.27569C29.7458 10.4027 27.2915 13.4052 24.4706 13.4382C24.4552 13.4382 24.4407 13.4391 24.4253 13.4391C20.4831 13.4391 17.4398 7.40482 16.061 4.07619C13.7086 10.2743 11.1841 13.3559 8.37091 13.4817C6.92876 13.5373 5.67282 12.8198 4.59132 11.7554L7.56534 20.4189Z"/>
+			</symbol>
 			<symbol id="veterinarian" viewBox="0 0 99 107">
 				<mask id="path-1-inside-1_1:301" fill="white">
 				<path d="M13.9031 23.452C6.57131 23.452 0.606689 29.4168 0.606689 36.7484C0.606689 43.5486 5.73893 49.1692 12.3328 49.9489V60.2005C12.3328 61.0677 13.036 61.771 13.9033 61.771C14.7706 61.771 15.4738 61.0677 15.4738 60.2005V49.9489C22.0677 49.1692 27.1999 43.5484 27.1999 36.7484C27.1997 29.4168 21.2349 23.452 13.9031 23.452ZM13.9031 46.904C8.30337 46.904 3.74752 42.3482 3.74752 36.7484C3.74752 31.1487 8.30337 26.5928 13.9031 26.5928C19.5028 26.5928 24.0587 31.1487 24.0587 36.7484C24.0587 42.3482 19.5031 46.904 13.9031 46.904Z"/>
@@ -500,8 +503,44 @@
 		</section>
 <!-- reviews End -->
 	</main>
-	<footer>
-	  	
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<a href="#!" class="footer__logo">
+		  		<svg class="footer__icon" width="49" height="23">
+		  			<use xlink:href="#logo-icon" x="0" y="0"></use>
+		  		</svg>
+		  	</a>
+		  	<ul class="footer__social">
+		  		<li class="footer__social-item">
+		  			<a href="#!" class="footer__social-link">
+		  				<span class="visually-hidden">Facebook</span>
+		  				<svg class="footer__social-icon social__icon-fb" width="6.76" height="14.49">
+		  					<use xlink:href="#social-icon-fb" x="0" y="0"></use>
+		  				</svg>
+		  			</a>
+		  		</li>
+		  		<li class="footer__social-item">
+		  			<a href="#!" class="footer__social-link">
+		  				<span class="visually-hidden">Twitter</span>
+		  				<svg class="footer__social-icon social__icon-tw" width="20.07" height="13.82">
+		  					<use xlink:href="#social-icon-tw" x="0" y="0"></use>
+		  				</svg>
+		  			</a>
+		  		</li>
+		  		<li class="footer__social-item">
+		  			<a href="#!" class="footer__social-link">
+		  				<span class="visually-hidden">ВКонтакте</span>
+		  				<svg class="footer__social-icon social__icon-vk" width="21.03" height="12">
+		  					<use xlink:href="#social-icon-vk" x="0" y="0"></use>
+		  				</svg>
+		  			</a>
+		  		</li>
+		  	</ul>
+		  	<a href="#!" class="footer__link footer__address">Новосибирск, Пушкинский проспект, 19</a>
+		  	<a href="#!" class="footer__link footer__tel">+7 (383) 900-64-65</a>
+			</div>			
+		</div>
 	</footer>
 </body>
 </html>

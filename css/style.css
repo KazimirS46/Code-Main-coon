@@ -1082,3 +1082,84 @@ body {
 }
 
 /*reviews End*/
+
+/*footer start*/
+
+.footer__wrapper {
+	width: 70.3%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 68px;
+	padding-bottom: 64px;
+}
+
+.footer__logo {
+	text-decoration: none;
+}
+
+.footer__icon {
+	fill: #A07B50;
+	transition: fill 0.3s ease-out;
+}
+
+.footer__icon:hover,
+.footer__icon:focus {
+	fill: #fff;
+}
+
+.footer__social {
+	display: flex;
+	align-items: center;
+}
+
+.footer__social-link {
+	display: block;
+}
+
+.footer__social-icon {
+	fill: #A07B50;
+	transition: fill 0.3s ease-out;
+}
+
+.footer__social-icon:hover,
+.footer__social-icon:focus {
+	fill: #fff;
+}
+
+.social__icon-fb {
+	margin-right: 10.17px;
+}
+
+.social__icon-tw {
+	margin-right: 8.48px;
+}
+
+.footer__link {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 27px;
+	color: #fff;
+	transition: color 0.3s ease-out;
+}
+
+.footer__address {
+	font-weight: normal;
+	transform: translateX(28px);
+	color: rgba(253, 242, 230, 0.83);
+}
+
+.footer__tel {
+	font-weight: bold;
+	color: #FDF2E6;
+	transform: translateX(-28px);
+}
+
+.footer__address:hover,
+.footer__address:focus,
+.footer__tel:hover,
+.footer__tel:focus {
+	color: #A07B50;
+}
+
+/*footer end*/
